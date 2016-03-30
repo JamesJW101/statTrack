@@ -8,3 +8,12 @@ Each user has their own custom list of exercises which are selected from a catal
 Outside of this functionaility there is a forum for dissucsion related to performace and general  disscussion on the topic(functionaility includes post, delete and edit)  
 
 inorder to  speed  up  the  process of searching for excercises from the catalogue a live  search bar will hopfully be created. This should apply filters to the cataloge and dynamicly change the displayed items (AJAX?) 
+
+wireframe  
+http://imgur.com/GlD6xCb
+
+notes-
+Json string to hold user exercise list: to make the changes parse it so you can apply the changes to a native JavaScript Object, then stringify back to JSON.
+
+
+
