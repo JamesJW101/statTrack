@@ -15,5 +15,5 @@ http://imgur.com/GlD6xCb
 notes-
 Json string to hold user exercise list: to make the changes parse it so you can apply the changes to a native JavaScript Object, then stringify back to JSON.
 
-
+login-https://developers.google.com/identity/protocols/OAuth2#basicsteps try to obtain user id to tie to mySQL ID
 
