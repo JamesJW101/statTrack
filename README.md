@@ -17,3 +17,4 @@ Json string to hold user exercise list: to make the changes parse it so you can 
 
 login-https://developers.google.com/identity/protocols/OAuth2#basicsteps try to obtain user id to tie to mySQL ID
 
+d3 + json http://stackoverflow.com/questions/22316866/d3js-getting-a-line-chart-drawn-from-json-data-input-using-d3-json
