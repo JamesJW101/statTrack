@@ -19,3 +19,4 @@ login-https://developers.google.com/identity/protocols/OAuth2#basicsteps try to 
 
 d3 + json http://stackoverflow.com/questions/22316866/d3js-getting-a-line-chart-drawn-from-json-data-input-using-d3-json
 mySQL   to  Json http://www.kodingmadesimple.com/2015/01/convert-mysql-to-json-using-php.html
+mysql to .csv works with dates and int
