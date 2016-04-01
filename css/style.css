@@ -1,0 +1,101 @@
+html {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #2b3e54;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+
+header{
+  background: #245c4c;
+  width: 100%;
+  padding: 40px 0;
+  color: white;
+  text-align: center;
+}
+/* removes pre formatting on A */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+nav ul{
+  background: grey;
+  overflow: hidden;
+  color: white;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: max-height 0.9s;
+  -moz-transition: max-height 0.9s;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li:hover{
+  background-color: #00795f;
+}
+
+#inputform{
+  background: #6a8c5a;
+  color: #fff; 
+  box-sizing: border-box;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  padding: 40px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#graphs{
+  background: #004d4d;
+  color: #fff;
+  box-sizing: border-box;
+  height: 64vh;
+  overflow: hidden;
+  text-align: center;
+
+}
+/*contains the toggle button for smaller viewports */
+.handle {
+    width: 100%;
+    background: black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    color: white;
+    display: none;
+
+}
+@media screen and (max-width: 580px){
+/* on smaller veiwprts changes the max hieght  of the lement nav to  the class  of nav1
+ which  hides  the bar utill toggle.js changes the class to showing increaing the max height */
+  .nav1 {
+    max-height: 0;
+    margin-bottom: 0px;
+  }
+  .showing{
+    max-height: 20em;
+  }
+
+  nav ul li {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  }
+  .handle {
+  display: block;}
+}
